@@ -301,26 +301,33 @@ nav:hover .shrink-btn,
   flex-flow: row wrap;
   border-color: black;
   border-style: solid;
-  justify-content: space-between;
+  justify-content: space-evenly;  
 }
 
 .profile-img {
   width: 2.9rem;
   border-radius: 50%;
   margin: 0 0.4rem;
+  border-style: solid;
 }
 
 .part-left {
   border-color: black;
   border-style: solid;
   display: flex;
+  margin: auto;
 }
 
 .admin-profiles {
   border-color: black;
   border-style: solid;
-  display: flex;
-  
+  display: flex;  
+  margin-right: 10px;
+
+}
+
+.admin-profiles h3 {
+  padding-top: 10px;
 }
 
 
