@@ -194,7 +194,7 @@ nav:hover .shrink-btn,
 
 .sidebar-links a.active,
 .sidebar-links a:hover {
-  color: #fff;
+  color: rgb(238, 238, 238);
 }
 
 .sidebar-links a .link {
@@ -268,6 +268,7 @@ nav:hover .shrink-btn,
   align-items: center;
   flex: 1;
   overflow: hidden;
+  margin: auto;
 }
 
 .admin-user img {
@@ -299,35 +300,68 @@ nav:hover .shrink-btn,
 .header {
   display: flex;
   flex-flow: row wrap;
-  border-color: black;
-  border-style: solid;
-  justify-content: space-evenly;  
+  justify-content: space-between;  
+  background-color: rgb(246 247 251);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.075);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .profile-img {
-  width: 2.9rem;
+  width: 3.3rem;
+  height: 3.3rem;
   border-radius: 50%;
-  margin: 0 0.4rem;
   border-style: solid;
+  margin-right: 15px;
+  margin-top : 5px;
+  margin-bottom: 5px;
+  border-color:#2f2f2f;
 }
 
 .part-left {
-  border-color: black;
-  border-style: solid;
   display: flex;
-  margin: auto;
+  width: 40%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.part-left a {
+  font-weight: 400;
+  text-decoration: none;
+  color:#000000;
+}
+
+.part-left a:hover {
+  font-weight: 400;
+  text-decoration: none;
+  color:#5e5e5e;
+}
+
+.part-left li {
+  list-style-type: none;
+}
+
+.part-left h1 {
+  padding-top: 10px;
+  text-transform: uppercase;
 }
 
 .admin-profiles {
-  border-color: black;
-  border-style: solid;
-  display: flex;  
-  margin-right: 10px;
+  display: flex; 
+  width: 23%;
+  flex-direction: wrap;
 
 }
 
 .admin-profiles h3 {
   padding-top: 10px;
+  font-weight: 400;
+  padding-right: 10px;
+  font-size: 1.1rem;
+}
+
+.admin-profiles h5 {
+  font-size: 0.8rem;
 }
 
 
