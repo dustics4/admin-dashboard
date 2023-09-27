@@ -407,10 +407,48 @@ nav:hover .shrink-btn,
   border-radius: 8px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.075);
   display: grid;
-  gap: 10px;
+  
+  gap: 5px;
   grid-template-rows: max-content 1fr max-content;
   padding: 30px;
   transition: all 0.4s;
+}
+
+.project-title h1{
+  font-size: 1.4rem;
+}
+
+.project-title p {
+  font-size: 0.8rem;
+}
+
+
+
+
+.text-area h1{
+  font-size: 1rem;
+}
+
+.text-area p {
+  font-size: 0.8rem;
+  padding-bottom: 10px;
+}
+
+.users-account h1{
+  font-size: 1rem;
+}
+.users-account p{
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0;
+}
+
+.text-trend h1 {
+  margin-bottom: 0;
+}
+
+#grid-trends {
+  grid-gap: 0px;
 }
 
 .section-title {
@@ -426,6 +464,22 @@ nav:hover .shrink-btn,
   outline: 2px solid lightblue;
 }
 
+.display-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+  height: 180px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.card-controls {
+  display: flex;
+  gap: 15px;
+  justify-content: right;
+  margin-top: 10px;
+}
 
 .log-out {
   display: flex;
